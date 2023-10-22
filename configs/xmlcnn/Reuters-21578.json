@@ -1,0 +1,16 @@
+{
+  "method": "XML-CNN",
+  "dataset": "Reuters-21578",
+  "batch_size": 40,
+  "nb_epoch": 30,
+  "valid_size": 200,
+  "swa_warmup": 10,
+  "model_params": {
+    "dynamic_pool_length": 8,
+    "bottleneck_dim": 512,
+    "num_filters": 128,
+    "dropout": 0.5,
+    "emb_trainable": false,
+    "emb_size": 300
+  }
+}
